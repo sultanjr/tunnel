@@ -1,0 +1,28 @@
+DNS forwardings
+127.0.0.1#5453
+0::1#5453
+
+127.0.0.1#5355
+
+opkg update
+opkg install curl wget libmbedtls12 tar luci-compat
+
+wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.104.1/AdGuardHome_linux_arm64.tar.gz
+wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.105.0-beta.1/AdGuardHome_linux_armv7.tar.gz
+wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.104.3/AdGuardHome_linux_armv7.tar.gz
+wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.105.0-beta.1/AdGuardHome_linux_arm64.tar.gz
+
+mkdir /etc/AdguardHome
+mkdir /usr/bin/AdGuardHome
+tar -xvf AdGuardHome_linux_arm64.tar.gz --strip-components=1 -C /etc/AdguardHome/
+tar -xvf AdGuardHome_linux_armv7.tar.gz --strip-components=1 -C /usr/bin/AdGuardHome/
+tar -xvf AdGuardHome_linux_arm64.tar.gz --strip-components=1 -C /usr/bin/AdguardHome/
+
+# install luci-adguardhome-app 
+wget https://github.com/rufengsuixing/luci-app-adguardhome/releases/download/1.8-11/luci-app-adguardhome_1.8-11_all.ipk
+opkg install luci-app-adguardhome_1.8-11_all.ipk
+opkg remove luci-app-adguardhome_1.8-11_all.ipk
+
+Di firewall - custom tambahkan : 
+iptables -t nat -A PREROUTING -i br-lan -p udp --dport 53 -j DNAT --to 192.168.1.1:5355
+iptables -t nat -A PREROUTING -i br-lan -p tcp --dport 53 -j DNAT --to 192.168.1.1:5355

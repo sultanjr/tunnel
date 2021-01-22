@@ -1,0 +1,21 @@
+1. Installing packages
+
+Navigate to LuCI → System → Software and install the packages luci-proto-wireguard and luci-app-wireguard to manage WireGuard using LuCI.
+2. Generating keys
+
+Generate a key pair of private and public keys.
+
+wg genkey | tee wg.key | wg pubkey > wg.pub
+
+    Use the wg.key file to configure the WireGuard interface on this router.
+    Use the wg.pub file to configure peers that will connect to this router through the WireGuard VPN.
+
+3. Restarting services
+
+Navigate to LuCI → System → Startup → Initscripts and click to network → Restart.
+4. Setting up network
+
+To create a new WireGuard interface go to LuCI → Network → Interfaces → Add new interface… and select WireGuard VPN from the Protocol dropdown menu.
+5. Monitoring connection status
+
+The menu LuCI → Status → WireGuard Status shows information about the WireGuard VPN.

