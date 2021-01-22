@@ -1,1 +1,5 @@
+# Paste ke Terminal 
+wget -O /usr/bin/sst "https://github.com/sultanjr/tunnel/blob/main/ShadowockBadVPN/sst.sh"
+
+# Miror Link
 wget -O /usr/bin/sst "https://www.dropbox.com/s/wam50whixphkkjj/sst.sh"
