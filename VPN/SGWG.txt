@@ -1,0 +1,13 @@
+config interface 'WireGuard'
+	option proto 'wireguard'
+	option private_key 'uNORcSTmSPAoLX4wX76O0HIhE0cvs0a+H328EBxuK18='
+	list addresses '10.9.0.113/24'
+
+config wireguard_WireGuard
+       option public_key 'Xfs7+95RaIIy1XkTCNRFix0xrjaV+2E5H8aGBEjsB3M='
+       list allowed_ips '0.0.0.0/0'
+       list allowed_ips '::/0'
+       option route_allowed_ips '1'
+       option endpoint_host 'line-apps.com.wg-sg5.portalssh.xyz'
+       option endpoint_port '50064'
+       option persistent_keepalive '25'

@@ -1,0 +1,11 @@
+{
+	"Transport": "direct",
+	"ProxyMethod":"openvpn",
+	"EncryptionMethod":"chacha20-poly1305",
+	"UID":"ZPbf5nhmLiIijx9FRg73aQ==",
+	"PublicKey":"TQIifCad8+qvA4LDzFwSmsVM6AFdTVrNsDzz2iMxGno=",
+	"ServerName":"pubgmobile.com",
+	"NumConn":1,
+	"BrowserSig":"chrome",
+	"StreamTimeout": 300
+	}

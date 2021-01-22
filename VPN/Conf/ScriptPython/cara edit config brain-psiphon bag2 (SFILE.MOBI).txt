@@ -1,0 +1,141 @@
+cara install brainfuck psiphon hp non root
+
+ tutorial ada disini :
+nanti di extract dulu
+https://tusfiles.com/0cy89g2x2qsq
+klo donlod di tusfiles - jk msk link br tutup [popup]-
+hrs di link donlod . klik donlod sampai muncul opsi download nya
+
+yg blm install - install dulu tutornya ada di atas itu 
+jk sdh mari kita mulai untuk edit secara langsung di termux , bkn lewat mc lg seperti cara yg pertama itu
+
+===========================================
+
+buka termux anda trs ini di copy kmdn pastekan di termux
+
+
+cd ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go
+
+ini axis ruangguru dan paket free lainnya
+bisa ditambahin trs di kasih tanda koma sprt di bwh ini:
+
+./brainfuck-psiphon-pro-go -r sg -f 114.120.225.155:443 -w akamai.net:443
+
+./brainfuck-psiphon-pro-go -r sg -f 114.120.225.155:80 -w akamai.net:443
+
+./brainfuck-psiphon-pro-go -r sg -f 118.98.95.120:443 -w akamai.net:443
+
+./brainfuck-psiphon-pro-go -r sg -f 118.98.95.120:80 -w akamai.net:443
+
+./brainfuck-psiphon-pro-go -r sg -f 112.215.105.40:80,23.219.184.128:443,151.101.10.49:443,23.199.69.120:443 -w akamai.net:443
+
+untuk berhenti.. brainfuck psiphon nya
+pejet ctrl dan c  
+
+kmdn bisa langsung copy di bwh ini salah satu sj n pastekan di termux
+
+===========================================
+ini untuk direct
+
+./brainfuck-psiphon-pro-go -f "*" -w "*:*"
+
+
+===========================================
+di bwh ini tsel dan proxy umeetme 
+tp blm berhasil sy cb, silahkan di oprek
+
+
+./brainfuck-psiphon-pro-go -f 118.98.95.120:80,118.97.159.51:80,118.98.95.106:80,118.98.95.120:443,118.97.159.51:443,118.98.95.106:443,36.94.47.252:80,36.94.47.244:80,36.94.47.245:80,36.94.47.246:80,36.94.47.247:80,36.94.47.243:443,36.94.47.244:443,36.94.47.245:443,36.94.47.246:443,36.94.47.247:443,36.94.47.248:443,36.94.47.249:443,36.94.47.252:443 -w akamai.net:443
+
+
+*************--------------------------------------***********-----**
+
+bisa jg sprt ini: 
+
+./brainfuck-psiphon-pro-go -r sg -f bug...
+
+atau ./brainfuck-psiphon-pro-go -r jp -f bug...
+
+
+untuk cara ini blm berhasil , mungkin hrs edit lewat mc itu
+blm di cb jg
+===========================================
+===========================================
+setelah go tambahin -r SG
+
+sg buat akamai
+jp buat fastly...klo sg buat fastly biasanya ga konek
+===========================================
+===========================================
+pejet ctrl dan c untuk berhenti .. brainfuck psiphon nya
+
+jk mau keluar termux sepenuhnya -ktk lg : exit trs enter
+
+
+
+*****************************************************
+*****************************************************
+
+kan ini stlh enter keluar dr termux - untuk mulai lg ,misal pakai axis ruangguru - mk buka termux kembali trs copy n paste lg .. sprt di awal itu
+===========================================
+===========================================
+
+
+xl ruangguru 
+axis all paket 
+free tsel ilmu pedia 
+isat edukasi proxy n ultrasuft 
+ada dlm kemasan zip itu
+
+https://youtu.be/4xCgriJNiWc
+
+bisa di cb itu untuk sc lain ..
+tinggal di copy bug yg ada di dlm txt - buat file 
+txt sprt ini:
+
+./brainfuck-psiphon-pro-go -f paste bug td disini -w akamai.net:443
+
+sprt di atas atas itu ...
+kasih tanda koma jk bug lebih dr satu
+atau cari bug di fb jg bnyk yg di share - proxy gamemax atau maxtream 
+
+
+jk tdk bisa lg lebih baik anda edit lewat mc
+bisa port 80 atau apalah sekiranya perlu di cb 
+===========================================
+===========================================
+
+
+Brainfuck Tunnel [Psiphon Pro Go Version. 1.3.200512]                                               (c) 2020 Aztec Rabbit.
+
+flag needs an argument: -r                        Usage of ./brainfuck-psiphon-pro-go:
+  -c int                                                  -c core (e.g. -c 4) (1 for Pro Version) (default 4)
+  -f string
+        -f frontend-domains (e.g. -f cdn.com,cdn.com:443)
+  -l int
+        -l limit (in MB) (e.g. -l 4) (0 for Pro Version (unlimited)) (default 4)
+  -mt int
+        -mt meek type (0 and 1 for fastly)
+  -pro
+        Pro Version? (default true)
+  -r string
+        -r region (e.g. -r sg)
+  -refresh                                                Refresh Data                                -t int                                                  -t tunnel (e.g. -t 4) (1 for Reconnect Version) (default 1)                                   -tw int                                                 -tw tunnel-workers (e.g. -tw 6) (8 for Pro Version) (default 6)
+  -verbose
+        Verbose Log?
+  -w string
+        -w whitelist-request (e.g. -w akamai.net:80)
+$
+cara simple edit config brainfuck psiphon all paket free axis
+
+sc lain silahkan cb jg
+
+password ada di dlm video
+
+cara edit config brain-psiphon bag2  https://sfile.mobi/3sx0JTSRDiq
+
+cara install brainruck psiphon ada di sini
+https://youtu.be/CLjUJTTXpE8
+
+
+

@@ -1,0 +1,13 @@
+ntuk perintah nya silahkan temen2 copy menggunakan browser....
+
+1》 pkg install git
+2》 pkg install nano
+3》 pkg install golang
+4》 go get -v -u github.com/aztecrabbit/brainfuck-psiphon-pro-go
+5》 cd ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go
+6》 go build -ldflags "-s -w"
+7》 go get -v -u github.com/Psiphon-Labs/psiphon-tunnel-core/ConsoleClient
+8》 cd ~/go/src/github.com/Psiphon-Labs/psiphon-tunnel-core/ConsoleClient
+9》 go build -ldflags "-s -w" -o ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go/psiphon-tunnel-core
+10》 cd ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go
+11》 ./brainfuck-psiphon-pro-go

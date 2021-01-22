@@ -1,0 +1,59 @@
+ Detail Akun:
+
+        Username: sultan
+        Password: vip
+        Masa Aktif: 14 Nov 2020
+
+        Host/IP: 34.126.95.125
+        OpenSSH Port: 22
+        Dropbear Port: 109, 143
+        SSL Port: 999, 636, 990
+        Proxy Ports: 3128, 8000, 8080
+        OpenVPN Port: 1194, 6666, 5555
+        Badvpn-UDPGW: 7300/7400
+
+    Server Host : vip-30-3.sshstores.vip
+    Username : vpiixx
+    Password : vip
+    SSL/TLS Port : 443,445
+    Expired : 2020-12-02
+    Squid Port: 80,3128
+    Dropbear: 442,143
+    UDPGW Port : 7313,7300,7390,7385,7376
+
+    Server Host : vip-30-4.sshstores.vip
+    Username : vpivx
+    Password : vip
+    SSL/TLS Port : 443,445
+    Expired : 2020-12-02
+    Squid Port: 80,3128
+    Dropbear: 442,143
+    UDPGW Port : 7313,7300,7390,7385,7376
+
+Host : vip2.jagoanssh.com / 103.227.252.230
+User : vpweixe
+Pass : qwe
+Exp : 19-10-2020
+
+Detail Account SSH
+# Host : vip11.globalssh.xyz
+# IP   : 49.213.16.151
+# OpenSSH : 22
+# Dropbear : 80
+# SSL :443, 444
+# Squid : 3128, 8080
+# Squid + SSL : 8000
+# VPN : 1194 (config ada di dokumen di grup VIP) <>  (config is in document in VIP group)
+# VPN TCP SSL / TLS: 992
+# Shadowsocks: 8388 (ask admin for the password/Silahkan pm admin untuk mengetahui password shadow)
+# Shadowsocks SSL / TLS: 8399
+# Masa aktif lifetime (Tergantung Support Kamu) <> # Lifetime active period (Depending on your Support)
+
+username : khairul-globalssh11
+pass : gm0sped
+
+Akun SSH/VPN Indonesia:
+https://www.facebook.com/groups/180080062473185/permalink/775684686246050/
+
+Req Akun Wireguard:
+https://www.facebook.com/groups/180080062473185/permalink/775521689595683/

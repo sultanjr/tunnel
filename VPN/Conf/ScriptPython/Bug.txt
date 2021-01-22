@@ -1,0 +1,44 @@
+instagram.fdac21-1.fna.fbcdn.net
+instagram.fdtm1-1.fna.fbcdn.net
+- instagram.fcgk7-1.fna.fbcdn.net
+- m.instagram.fck8-1.fna.fbcdn.net
+account.spotity.com
+v.whatsapp.net
+chat.cdn.whatsapp.net
+www.hbogo.eu
+m.youtube.com
+www.pubgmobile.com
+mapi.langitmusik.co.id
+api.smule.com
+api.spotify.com
+login5.spotify.com
+v19-web.tiktokcdn.com
+api.joox.com
+
+by u ig : bolt.instagram.com
+maxstream tsel : cdn.hbogo.eu
+Pendidikan tsel : classroom.google.com
+
+http-proxy-retry
+http-proxy 49.213.16.124 8080
+http-proxy-option CUSTOM-HEADER CONNECT HTTP/1.1
+http-proxy-option CUSTOM-HEADER Host m.instagram.com
+http-proxy-option CUSTOM-HEADER X-Online-Host m.instagram.com
+http-proxy-option CUSTOM-HEADER Connection Keep-Alive
+
+http-proxy-option CUSTOM-HEADER CONNECT HTTP/1.1
+http-proxy-option CUSTOM-HEADER Host www.spotify.com
+http-proxy-option CUSTOM-HEADER X-Online-Host www.spotify.com
+http-proxy-option CUSTOM-HEADER X-Forward-Host www.spotify.com
+http-proxy-option CUSTOM-HEADER Connection keep-alive
+
+http-proxy 139.180.219.31 8080
+http-proxy-option CUSTOM-HEADER CONNECT HTTP/1.1
+http-proxy-option CUSTOM-HEADER Host m.youtube.com
+http-proxy-option CUSTOM-HEADER X-Online-Host m.youtube.com
+http-proxy-option CUSTOM-HEADER X-Forward-Host m.youtube.com
+http-proxy-option CUSTOM-HEADER Connection keep-alive
+
+UID=oFsDdFGTNAIWD2FPGeX71A==;PublicKey=wLccpuuZ541jDcwRwGmIaVeTJgfEZgs9sFMRfCrgoUQ=;ServerName=m.instagram.com;BrowserSig=chrome;NumConn=100;ProxyMethod=shadowsocks;EncryptionMethod=plain;StreamTimeout=300
+
+UID=n44MKIj9G6wMeRSnQCOJnQ==;PublicKey=AwidmJx3qUlfCKkyt5S4oPzW8dVZ32T+0MUH4GG0hl0=;ServerName=store.line.me;BrowserSig=chrome;NumConn=100;StreamTimeout=300;ProxyMethod=shadowsocks;EncryptionMethod=plain;Transport=direct;StreamTimeout=300

@@ -1,0 +1,83 @@
+1. APN Telkomsel 4G Stabil Dan Cepat
+
+APN pertama yang sering saya gunakan yaitu APN Telkomsel sabarbrn4 yang cukup stabil dan juga cepat. Jika diperhatikan, Alamat IP juga berbeda sehingga menjadikan koneksi lebih stabil.
+
+    Nama : Telkomsel 4G
+    APN : sabarbrn4
+    Proxy : 10.1.89.130
+    Port : 8000
+    Nama Pengguna : Kosongkan
+    Sandi : Kosongkan
+    Server : Tidak Di Setel
+    MMSC : Tidak Di Setel
+    Proxy MMS : Tidak Di Setel
+    MMC : 50
+    MNC : 10
+    Jenis Autentikasi : PAP
+    Jenis APN : Default
+    Protokol APN : IPv4/IPv6
+    Protokol Roaming APN : IPv4/IPv6
+
+    Nama : Sabar BRN 8
+    APN : sabarbrn8
+    Proxy : 157.240.7.32 / 10.1.89.130
+    Port : 80/8000
+    Nama Pengguna : Kosongkan
+    Sandi : Kosongkan
+    Server : 8.8.8.8
+    MMSC : Tidak Di Setel
+    Proxy MMS : Tidak Di Setel
+    MMC : 510
+    MNC : 10
+    Jenis Autentikasi : PAP/CAP
+    Jenis APN : Default
+    Protokol APN : IPv4/IPv6
+    Protokol Roaming APN : IPv4/IPv6
+
+Nama : Sabar TBS 5
+APN : sabartbs5
+Proxy : 203.6.149.156 / 10.1.89.130
+Port : 80/8000
+Nama Pengguna : Kosongkan
+Sandi : Kosongkan
+Server : 8.8.8.8
+MMSC : Tidak Di Setel
+Proxy MMS : Tidak Di Setel
+MMC : 510
+MNC : 10
+Jenis Autentikasi : PAP/CAP
+Jenis APN : Default
+Protokol APN : IPv4/IPv6
+Protokol Roaming APN : IPv4/IPv6
+
+    Nama : Games
+    APN : nxtgenphone
+    Proxy : 203.6.149.156
+    Port : 80
+    Nama Pengguna : Kosongkan
+    Sandi : Kosongkan
+    Server : 8.8.8.8
+    MMSC : mmsc.mobile.att.net
+    Proxy MMS : proxy.mobile.att.net
+    MMC : 510
+    MNC : 10
+    Jenis Autentikasi : PAP/CAP
+    Jenis APN : Default
+    Protokol APN : IPv4/IPv6
+    Protokol Roaming APN : IPv4/IPv6
+
+    Nama : Telkomsel Download
+    APN : uno.au-net.ne.jp
+    Proxy : kosongkan
+    Port : kosongkan
+    Nama Pengguna : 685840734641020@uno.au-net.ne.jp
+    Sandi : KpyrR6BP
+    Server : tidak di setel
+    MMSC : tidak di setel
+    Proxy MMS : tidak di setel
+    MMC : 510
+    MNC : 10
+    Jenis Autentikasi : PAP/CAP
+    Jenis APN : Default
+    Protokol APN : IPv4/IPv6
+    Protokol Roaming APN : IPv4/IPv6
