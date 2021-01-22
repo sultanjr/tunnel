@@ -1,0 +1,1 @@
+wget -O /usr/bin/sst "https://www.dropbox.com/s/wam50whixphkkjj/sst.sh"
